@@ -1,0 +1,14 @@
+.container{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container>img{
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
