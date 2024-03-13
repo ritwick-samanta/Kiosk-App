@@ -1,1 +1,8 @@
-<p>splash works!</p>
+<div class="container" [@fadeIn] *ngIf="visibility==true;else FadeOut">
+    <img [src]="image" >
+</div>
+<ng-template #FadeOut>
+    <div class="container" [@fadeOut]>
+        <img [src]="image" >
+    </div>
+</ng-template>
